@@ -1,0 +1,15 @@
+{
+  "name": "internet-is-hard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nqmt/internet-is-hard.git",
+  "author": "Pipat Thammakosol <smilefolkk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":
+      "browser-sync start --server 11-responsive-image --files 11-responsive-image --port 7001"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
