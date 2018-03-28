@@ -49,13 +49,34 @@
 
 .illustration img {
   width: 100%;
+  height: auto;
   max-width: 500px;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
 }
 
 /* Moblie style */
 @media only screen and (max-width: 400px) {
   body {
     background-color: #f09a9d;
+  }
+
+  .content {
+    max-height: 370px;
+  }
+
+  .header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+  }
+
+  .photo img {
+    width: 100%;
+    display: block;
   }
 }
 
